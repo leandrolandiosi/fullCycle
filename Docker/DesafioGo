@@ -1,1 +1,11 @@
-https://hub.docker.com/repository/docker/leandrolandiosii/hello-world-go/general
+# https://hub.docker.com/repository/docker/leandrolandiosii/hello-world-go/general
+
+ADD file ... in /
+
+CMD ["/bin/sh"]
+
+RUN /bin/sh -c apk --no-cache
+
+COPY /usr/src/myapp/hello /usr/local/bin/hello # buildkit
+
+CMD ["hello"]
