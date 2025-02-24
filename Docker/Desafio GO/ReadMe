@@ -1,1 +1,20 @@
-https://hub.docker.com/repository/docker/leandrolandiosii/hello-world-go/general
+Requisitos
+
+Ubuntu
+Docker
+Go (Golang)
+
+Instalação
+sudo apt update
+sudo apt install -y docker.io
+sudo systemctl enable --now docker
+
+Instalar o Go
+sudo apt install -y golang
+
+Como rodar o projeto
+
+Construir a imagem Docker
+docker build -t leandrolandiosi/fullcyclego .
+
+Executar o container
