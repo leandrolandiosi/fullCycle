@@ -22,7 +22,9 @@ services:
       - db
     networks:
       - default-network
-
+    volumes:
+      - ./node:/app
+      - /app/node_modules
   db:
     build: 
       context: ./mysql
