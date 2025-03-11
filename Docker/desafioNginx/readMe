@@ -3,3 +3,4 @@ docker-compose down --remove-orphans
 docker-compose build --no-cache
 docker-compose up -d
 http://localhost:8080
+https://hub.docker.com/repository/docker/leandrolandiosii/desafionginx_nginx/general
