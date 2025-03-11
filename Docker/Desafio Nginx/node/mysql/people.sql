@@ -1,3 +1,0 @@
-CREATE TABLE PEOPLE (
-  nome VARCHAR(50)
-);
